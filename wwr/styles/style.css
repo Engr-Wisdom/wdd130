@@ -1,0 +1,167 @@
+:root {
+    --Primary-color: rgb(25, 60, 80);
+    --Secondary-color: rgb(221, 21, 21);
+    --Accent1-color: rgb(0, 0, 0);
+    --Accent2-color: rgb(255, 255, 255);
+    --heading-font: 'Roboto Slab', serif;
+    --body-font: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--Accent1-color)
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--Primary-color);
+  height: 100px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+}
+
+p {
+  font-family: var(--body-font);
+}
+
+header img {
+  background-color: red;
+  width: 50px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+}
+
+header nav div {
+  height: 30px;
+  width: inherit;
+  border: solid grey 1px;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  color: var(--Accent2-color);
+}
+
+.hero article img {
+  float: right;
+  width: 100px;
+  height: auto;
+}
+
+article {
+  background-color: var(--Primary-color);
+  position: absolute;
+  top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+article p {
+  color: var(--Accent2-color);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+section {
+  margin: auto;  
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.history,
+.adventure {
+  padding-bottom: 20px;
+}
+
+.history div {
+  display: flex;
+  justify-content: center;
+  width: 840px;
+  
+}
+
+.history div img{
+  width: 200px;
+  height: 100px;
+}
+
+.adventure div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.adventure img {
+  width: 100px;
+  height: 80px;
+  margin: 0;
+}
+
+footer {
+  background-color: var(--Primary-color);
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+footer p {
+  margin: 0;
+  color: var(--Accent2-color)
+}
+
+footer nav {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 30px;
+}
+
+footer nav img {
+  height: 20px;
+}
