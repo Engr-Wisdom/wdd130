@@ -3,8 +3,8 @@
     --Secondary-color: rgb(221, 21, 21);
     --Accent1-color: rgb(0, 0, 0);
     --Accent2-color: rgb(255, 255, 255);
-    --heading-font: 'Roboto Slab', serif;
-    --body-font: 'Open Sans', sans-serif;
+    --heading-font: "Open Sans", sans-serif;
+    --body-font: "Roboto Slab", serif;
 }
 
 * {
