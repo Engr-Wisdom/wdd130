@@ -51,12 +51,13 @@ header nav {
   width: 400px;
 }
 
-header nav div {
+header nav a {
   height: 30px;
   width: inherit;
   border: solid grey 1px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero {
