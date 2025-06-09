@@ -58,6 +58,8 @@ header nav a {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: var(--body-font);
+  text-decoration: none;
 }
 
 .hero {
@@ -150,7 +152,7 @@ footer {
 
 footer p {
   margin: 0;
-  color: var(--Accent2-color)
+  color: var(--Accent2-color);
 }
 
 footer nav {
