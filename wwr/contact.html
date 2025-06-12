@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Wisdom Emmanuel, a WDD 130 student, and the purpose behind Rafting Streamline Sport. Learn about the site's goals, its creator, and the passion for white water adventure." >
+    <meta name="author" content="Wisdom Emmanuel Effiong">
+
+    <title>Contact Us - Rafting Streamline Sport</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Rafting logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+    <h1>Contact Us</h1>
+    <div class="contact-info">
+        <h2>Our Office</h2>
+        <p>123 River Run Lane<br>
+        Rapids City, ID 83445</p>
+        
+        <h2>Phone</h2>
+        <p>Main Office: (208) 555-1234<br>
+        Reservations: (208) 555-5678</p>
+        
+        <h2>Email</h2>
+        <p>info@whitewaterrafting.com</p>
+    </div>
+
+      <section class="employee-profiles">
+        <h2>Meet Our Team</h2>
+        <div class="employees">
+            <figure>
+                <img src="images/employee1.jpg" alt="Happy rafting guide smiling">
+                <figcaption>Sarah Johnson<br><em>Head Rafting Guide</em></figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpeg" alt="Friendly booking agent laughing">
+                <figcaption>Mike Chen<br><em>Reservations Manager</em></figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpeg" alt="Outdoor safety instructor">
+                <figcaption>Emily Rodriguez<br><em>Safety Instructor</em></figcaption>
+            </figure>
+        </div>
+      </section>
+
+      <section class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form action="form-handler.php" method="post">
+        <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <p>Purpose of Message:</p>
+            <label>
+                <input type="radio" name="purpose" value="general" required> General Inquiry
+            </label>
+            <label>
+                <input type="radio" name="purpose" value="reservation"> Reservation Question
+            </label>
+            <label>
+                <input type="radio" name="purpose" value="suggestion"> Website Suggestion
+            </label>
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label>
+                <input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter
+            </label>
+        </div>
+        
+        <button type="submit" class="submit-btn">Send Your Message</button>
+    </form>
+</section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2025 Rafting Streamline sport Wisdom Effiong</p>
+      <nav>
+        <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+        <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+      </nav>
+    </footer>
+  </body>
+</html>
