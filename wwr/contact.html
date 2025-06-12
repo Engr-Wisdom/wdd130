@@ -6,7 +6,7 @@
     <meta name="description" content="Contact Rafting Streamline Sport for bookings and inquiries. Find our address, phone numbers, and email." >
     <meta name="author" content="Wisdom Emmanuel Effiong">
 
-    <title>Contact Us</title>
+    <title>Contact Rafting Streamline Sport</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,7 +60,7 @@
 
       <section class="contact-form">
     <h2>Send Us a Message</h2>
-    <form action="form-handler.php" method="post" id="form">
+    <form action="form-handler.php" method="post">
         <div class="form-group">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
@@ -74,13 +74,13 @@
         <div class="form-group">
             <p>Purpose of Message:</p>
             <label>
-                <input type="radio" name="purpose" value="general" required> General Inquiry
+                <input type="radio" name="purpose" id="general" value="general" required> General Inquiry
             </label>
             <label>
-                <input type="radio" name="purpose" value="reservation"> Reservation Question
+                <input type="radio" name="purpose" id="reservation" value="reservation"> Reservation Question
             </label>
             <label>
-                <input type="radio" name="purpose" value="suggestion"> Website Suggestion
+                <input type="radio" name="purpose" id="suggestion" value="suggestion"> Website Suggestion
             </label>
         </div>
         
@@ -91,7 +91,7 @@
         
         <div class="form-group">
             <label>
-                <input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter
+                <input type="checkbox" name="subscribe" id="subscribe" value="yes"> Please subscribe me to the monthly newsletter
             </label>
         </div>
         
