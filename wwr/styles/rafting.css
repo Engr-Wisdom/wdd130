@@ -1,0 +1,285 @@
+:root {
+    --Primary-color: rgb(25, 60, 80);
+    --Secondary-color: rgb(221, 21, 21);
+    --Accent1-color: rgb(0, 0, 0);
+    --Accent2-color: rgb(255, 255, 255);
+    --heading-font: "Open Sans", sans-serif;
+    --body-font: "Roboto Slab", serif;
+}
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--Accent1-color)
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--Primary-color);
+  height: 100px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+}
+
+p {
+  font-family: var(--body-font);
+}
+
+header img {
+  background-color: red;
+  width: 50px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+}
+
+header nav a {
+  height: 30px;
+  width: inherit;
+  border: solid grey 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--body-font);
+  text-decoration: none;
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  display: block;
+  width: 840px;
+  height: 400px;
+  position: relative;
+}
+
+.hero h1 {
+  position: absolute;
+  color: var(--Accent2-color);
+  top: 0;
+}
+
+.hero article img {
+  float: right;
+  width: 100px;
+  height: auto;
+}
+
+article {
+  background-color: var(--Primary-color);
+  position: absolute;
+  top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+article p {
+  color: var(--Accent2-color);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+section {
+  margin: auto;  
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.history,
+.adventure {
+  padding-bottom: 20px;
+}
+
+.history div {
+  display: flex;
+  justify-content: center;
+  width: 840px;
+  
+}
+
+.history div img{
+  width: 200px;
+  height: 100px;
+}
+
+.adventure div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.adventure img {
+  width: 100px;
+  height: 80px;
+  margin: 0;
+}
+
+footer {
+  background-color: var(--Primary-color);
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+footer p, footer a {
+  margin: 0;
+  color: var(--Accent2-color);
+}
+
+footer nav {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 30px;
+}
+
+footer nav img {
+  height: 20px;
+}
+
+.employee-profiles {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.employees figure {
+    margin: 1rem;
+    max-width: 200px;
+}
+
+.employees img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+
+.contact-form {
+    max-width: 840px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.submit-btn {
+    background-color: #2c3e50;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #1a252f;
+}
+
+.contact-info {
+    background-color: rgba(25, 60, 80, 0.1); /* Semi-transparent version of your primary color */
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 840px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(25, 60, 80, 0.2);
+}
+
+.contact-info h2 {
+    color: var(--Primary-color);
+    margin: 1.5rem 0 0.5rem 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--Secondary-color);
+    padding-bottom: 0.3rem;
+    display: inline-block;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--Accent1-color);
+    margin-left: 1rem;
+}
+
+.contact-info h2:first-child {
+    margin-top: 0;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+}
