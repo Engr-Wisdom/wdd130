@@ -76,8 +76,15 @@ main h1 {
 
 .hero img {
   display: block;
-  width: 100%;
+  width: 840px;
   height: 400px;
+  position: relative;
+}
+
+.hero h1 {
+  position: absolute;
+  color: var(--Accent2-color);
+  top: 0;
 }
 
 .hero article img {
