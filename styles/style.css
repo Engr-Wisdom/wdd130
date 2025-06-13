@@ -1,10 +1,18 @@
 main {
-    width: 900px;
+    max-width: 900px;
 }
 
-header, main, footer, aside {
+header {
     margin: auto;
-    width: 900px;
+    max-width: 900px;
+}
+
+nav {
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 aside {
