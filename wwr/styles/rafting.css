@@ -40,7 +40,6 @@ p {
 }
 
 header img {
-  background-color: red;
   width: 50px;
 }
 
@@ -291,7 +290,7 @@ iframe {
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  background-color: #FF8C00;
+  background-color:  #2c3e50;
   padding: 12px 24px;
   border-radius: 5px;
   text-decoration: none;
@@ -299,7 +298,7 @@ iframe {
   transition: background-color 0.3s;
 }
 .hero a:hover {
-  background-color: #FF6B00;
+  background-color: #2d4761;
 }
 
 .grid-layout {
@@ -350,7 +349,7 @@ iframe {
 .newsletter button {
   width: 100%;
   padding: 12px;
-  background-color: #FF8C00;
+  background-color:  #2c3e50;
   color: white;
   border: none;
   border-radius: 5px;
@@ -372,7 +371,7 @@ iframe {
 
 .hero-section a {
   text-decoration: none;
-  background-color: #ff8c00;
+  background-color:  #2c3e50;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -418,7 +417,7 @@ iframe {
 .book-btn {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #ff8c00;
+  background-color:  #2c3e50;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -447,5 +446,5 @@ iframe {
 
 .feature-item i {
   margin-right: 10px;
-  color: #ff8c00;
+  color:  #2c3e50;
 }
